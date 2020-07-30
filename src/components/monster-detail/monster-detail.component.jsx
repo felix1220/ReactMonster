@@ -1,8 +1,12 @@
 import React from 'react'
+import TestComponent from '../testarea/TestComponent';
 
 const MonsterDetail = () => {
     return (
-        <h1>Monster Detail</h1>
+        <div>
+            <h1>Monster Detail</h1>
+            <TestComponent />
+        </div>
     )
 }
 
